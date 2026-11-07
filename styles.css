@@ -11,6 +11,8 @@
 .app-shell.search-active{grid-template-columns:minmax(0,1fr)}
 .search-active .sidebar,.search-active .right-rail{position:absolute;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,visibility .2s ease}
 .search-active .breadcrumbs,.search-active .top-actions,.search-active #page-view>:not(.section-block),.search-active .section-heading{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,visibility .2s ease}
+.search-active #page-view>:not(.section-block){height:0;min-height:0!important;margin-block:0;padding-block:0;overflow:hidden}
+.card-actions{flex-wrap:wrap}
 .search-active .main-content{width:100%;max-width:1100px;margin:0 auto}
 .search-active .topbar{grid-template-columns:minmax(0,1fr);justify-items:center}
 .search-active .topbar .search-box{max-width:680px}
