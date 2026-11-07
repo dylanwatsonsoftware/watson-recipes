@@ -1,13 +1,21 @@
-const CACHE_NAME = 'watson-recipes-shell-v1';
+const CACHE_NAME = 'watson-recipes-shell-v2';
 const APP_FILES = [
   '/',
   '/index.html',
   '/app.js',
+  '/whatsapp-recipes.js',
   '/styles.css',
   '/manifest.webmanifest',
   '/assets/watson-icon.svg',
   '/assets/watson-icon-192.png',
-  '/assets/watson-icon-512.png'
+  '/assets/watson-icon-512.png',
+  '/assets/whatsapp/balanced-tofu-spinach-saag.jpg',
+  '/assets/whatsapp/creamy-coconut-pork-pasta.jpg',
+  '/assets/whatsapp/mushroom-spinach-stuffed-sweet-potato.jpg',
+  '/assets/whatsapp/stuffed-sweet-potatoes-feta.jpg',
+  '/assets/whatsapp/beef-cabbage-stir-fry.jpg',
+  '/assets/whatsapp/cauliflower-broccoli-mac-cheese.jpg',
+  '/assets/whatsapp/tomato-burrata-gnocchi.jpg'
 ];
 
 self.addEventListener('install', event => {
