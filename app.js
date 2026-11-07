@@ -121,7 +121,7 @@ function switchView(view){currentView=view;document.querySelectorAll('.nav-item'
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>switchView(button.dataset.view)));
 $('#date-label').textContent=dateLabel();
 $('#filters').addEventListener('click',event=>{const btn=event.target.closest('[data-filter]');if(!btn)return;currentFilter=btn.dataset.filter;document.querySelectorAll('.filter').forEach(f=>f.classList.toggle('active',f===btn));renderGrid();});
-$('#recipe-search').addEventListener('input',event=>{currentSearch=event.target.value.trim();renderGrid();});
+$('#recipe-search').addEventListener('input',event=>{currentSearch=event.target.value.trim();$('.app-shell').classList.toggle('search-active',Boolean(currentSearch));renderGrid();});
 $('#recipe-grid').addEventListener('click',event=>{const card=event.target.closest('.recipe-card');if(card)openRecipe(card.dataset.id);});
 $('#view-recipe').addEventListener('click',()=>openRecipe(currentRecipe.id));
 $('#done-btn').addEventListener('click',()=>markCooked());
