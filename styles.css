@@ -24,4 +24,16 @@ dialog:not([open]){display:none}
 .dietary-guidance h3{font:500 15px var(--serif);margin:0 0 11px}
 .dietary-guidance div+div{margin-top:10px}
 .dietary-guidance b{display:block;color:#455b48;font-size:10px}
+.recipe-controls{display:flex;justify-content:flex-end;gap:10px;margin:10px 0 14px;color:#6f776c;font-size:10px}
+.recipe-controls label{display:flex;align-items:center;gap:6px}
+.recipe-controls select{max-width:190px;border:1px solid #e1e3da;border-radius:5px;background:#fffefa;color:#465044;padding:7px 9px;font:10px var(--sans)}
+.audience-chips{display:flex;gap:4px;margin:0 0 5px}
+.audience-chip{background:#eef1e9;color:#53684f;border-radius:10px;padding:3px 6px;font-size:8px}
+.household-tag-panel{margin-top:14px;padding:13px 15px;background:#fffefa;border:1px solid #eeede6;border-radius:6px}
+.household-tag-panel h3{font:500 14px var(--serif);margin:0 0 10px}
+#household-tags{display:flex;flex-wrap:wrap;gap:7px}
+#household-tags label{display:flex;align-items:center;gap:5px;padding:6px 9px;border:1px solid #e1e3da;border-radius:16px;color:#697166;font-size:10px;cursor:pointer}
+#household-tags input{accent-color:#49634d;margin:0}
+.share-dialog textarea{border:1px solid #e1e2da;border-radius:5px;padding:9px 11px;font:11px/1.5 var(--sans);background:#fffefa;color:var(--ink);resize:vertical}
+@media(max-width:760px){.recipe-controls{justify-content:flex-start;overflow:auto}.recipe-controls select{max-width:155px}.recipe-controls label{white-space:nowrap}}
 .dietary-guidance p{margin:2px 0 0;color:#697166}
