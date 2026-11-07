@@ -17,3 +17,8 @@
 .search-active .section-block{padding-top:8px!important}
 .search-active .section-heading{height:0;margin:0;overflow:hidden}
 @media(max-width:760px){.search-active .topbar{grid-template-columns:minmax(0,1fr);padding:10px 0}.search-active .topbar .search-box{grid-column:1;grid-row:1}}
+.dietary-guidance{margin:16px 0 0;padding:15px;background:#eef1e9;border-radius:6px;font-size:10px;line-height:1.6}
+.dietary-guidance h3{font:500 15px var(--serif);margin:0 0 11px}
+.dietary-guidance div+div{margin-top:10px}
+.dietary-guidance b{display:block;color:#455b48;font-size:10px}
+.dietary-guidance p{margin:2px 0 0;color:#697166}
