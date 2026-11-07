@@ -6,4 +6,4 @@ A small, local-first recipe app for planning shared meals with vegetarian and pr
 
 Open `index.html` in a browser. No build step or dependencies are required. Cooking history, ratings, saved recipes, and links you add are stored in that browser's local storage.
 
-The starter recipes are examples based on the meal preferences in the project brief. Recipe photos load from Unsplash and the “Find an example recipe” action searches the web for the dish. The supplied Confluence and Google Docs pages were not accessible from this session, so their planner content has not been imported yet.
+The app includes 12 starter ideas plus the 30 dinners and 10 standalone lunches from the supplied Confluence planner. Planner entries link back to the source page; starter ideas use a web search for recipe examples. Recipe photos load from Unsplash. The Google Docs page has not been imported.
